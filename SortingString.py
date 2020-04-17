@@ -1,4 +1,10 @@
-bubbleSortString = """import numpy as np
+#Другий файл не виконує коду
+#Ми лише об’являємо(ініціалізує) три змінні типу string,які в собі місять код для тестування часу
+#Ці змінні ми використовуємо в функції timeit, яка прийма два аргументи:
+# 1)Стрічка з кодом,який потрібно протестувати
+# 2)Кількість повторів виконання (number = 1)
+
+bubbleSortString = """import numpy as np  
 n = np.random.randint(-50000, 50000, 2000)
 def BubbleSort(n, direction):
     if direction:
